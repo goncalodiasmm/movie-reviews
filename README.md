@@ -28,7 +28,15 @@ The website can be run locally, on `localhost`.
    ```
 2. Install NPM packages
    ```sh
-   git clone https://github.com/goncalodiasmm/movie-reviews.git
+   npm install
+   ```
+3. Run the Next.js app on the `frontend` folder
+   ```sh
+   cd frontend && npm run dev
+   ```
+4. Run the Strapi app on the `backend` folder
+   ```sh
+   cd backend && npm run develop
    ```
 
 And you're good to go! 🚀
